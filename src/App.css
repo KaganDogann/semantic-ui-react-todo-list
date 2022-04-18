@@ -1,38 +1,28 @@
 .App {
   text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ui.card.head_part{
+  background-color: rgb(190, 189, 188);
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ui.content.test1 {
+  background-color: #9decab;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#specific-id {
+  font-size: 1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.ui.card.gradient-custom-card {
+  /* fallback for old browsers */
+  background: #2d2d2e;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to left, rgba(62, 64, 64, 0.5), rgba(250, 241, 240, 0.5));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, rgba(186, 186, 228, 0.5), rgba(250, 241, 240, 0.5))
 }

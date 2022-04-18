@@ -3,15 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@semantic-ui-react/css-patch": "^1.0.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "formik": "^2.2.9",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-redux": "^7.2.8",
     "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
+    "react-toastify": "^8.2.0",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.2",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
   },
   "scripts": {
+    "postinstall": "semantic-ui-css-patch",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
